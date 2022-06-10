@@ -118,7 +118,7 @@ def main ():
                     elif event.type == pygame.KEYDOWN:
                         if event.key == pygame.K_w:
                             running = False
-                            cells= start_with_x(500)
+                            cells= start_with_x(1200)
                             update (screen, cells, size)
                             pygame.display.update()
                             
